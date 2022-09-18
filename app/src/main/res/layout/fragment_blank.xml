@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#909090"
+    tools:context=".BlankFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="208dp"
+        android:text=" Hello in Fragment"
+        android:textColor="#ffffff"
+        app:autoSizeMaxTextSize="32dp"
+        app:autoSizeMinTextSize="32dp" />
+</RelativeLayout>
